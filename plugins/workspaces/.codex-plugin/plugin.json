@@ -1,0 +1,31 @@
+{
+  "name": "workspaces",
+  "version": "0.4.0",
+  "description": "Search your workspaces' documents with citations, and run your firm's own playbooks, in Wellknown Workspaces.",
+  "author": {
+    "name": "Wellknown Labs",
+    "url": "https://wellknownlabs.com"
+  },
+  "homepage": "https://workspaces.wellknownlabs.com",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Wellknown Workspaces",
+    "shortDescription": "Your workspaces' documents, with citations",
+    "longDescription": "Search a workspace's documents with citations, and run your firm's own playbooks, in ChatGPT and Codex.",
+    "logo": "./assets/wellknown-logomark-512.png",
+    "composerIcon": "./assets/wellknown-logomark.svg",
+    "brandColor": "#1F3838",
+    "developerName": "Wellknown Labs",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Search"
+    ],
+    "defaultPrompt": [
+      "What does the data room say about customer concentration?",
+      "Run our commercial due diligence playbook on this deal.",
+      "Which documents cover the target's pricing?"
+    ]
+  }
+}
